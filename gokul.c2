@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+
+char gk;
+printf("Enter a Character\n");
+scanf("%c",&gk);
+
+if(gk>='a'&&gk<='z'||gk>='A'&&gk<='Z')
+    printf("Alphabate");
+else
+    printf("No");
+
+return 0;
+}
